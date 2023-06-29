@@ -1,0 +1,51 @@
+body{
+    height: 100%;
+    background: #96A2C9;
+    color: whitesmoke;
+}
+header{
+    background-color: #BEC3D3;
+    height: 175px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    clear: right;
+    font-size: 9em;
+}
+#write{
+    float: left;
+    background-color: #5468AB;
+    border-radius: 20px;
+    width: 560px;
+    height: 650px;
+    padding: 20px;
+    text-align: center;
+}
+#write div{
+    font-size: 5em;
+}
+#rec{
+    font-size: 5em;
+}
+#store{
+    color: #5468AB;
+    float: right;
+    background: beige;
+    border-radius: 20px;
+    width: 1240px;
+    height: 650px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+#tb{
+    width: 100%;
+    margin-left: 10px;
+    font-size: large;
+}
+#submit{
+    font-size: large;
+}
+#guestbook-list div{
+    float: left;
+    margin-right: 20px;
+    border-color: #5468AB;
+}

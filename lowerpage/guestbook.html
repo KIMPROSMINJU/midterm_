@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest Book Page</title>
+    <script>
+        alert("재로딩하면 쓰여진 방명록을 다시 열람할 수 없습니다!\n다음 기능은 다음 제출 때 구현하도록 하겠습니다.");
+    </script>
+    <link rel="stylesheet" href="guest.css">
+</head>
+<body>
+    <header>GUEST BOOK</header>
+    <section>
+        <article id="write">
+            <div>WRITE PAGE</div>
+            <img src="../img/meow.jpg" alt="고양이랍니다." width="200px">
+            <br>
+            <br>
+            <hr>
+            <br>
+            <form id="guestbook-form">
+                <table id="tb">
+                    <tr>
+                        <th><label for="name-input">NAME</label></th>
+                        <td><input type="text" id="name-input" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <th><label for="message-input">MESSAGE</label></th>
+                        <td><textarea id="message-input" name="message" cols="35" rows="10" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><button type="submit" id="submit">SAVE</button></td>
+                    </tr>
+                </table>
+            </form>
+        </article>
+        <article id="store">
+            <div id="rec">RECORDS</div>
+            <hr>
+            <div id="guestbook-list"></div>
+            <script src="guestbook.js"></script>
+        </article>
+    </section>
+</body>
+</html>
+

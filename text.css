@@ -1,0 +1,28 @@
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+nav a{
+    color: rgb(73, 101, 126);
+}
+nav a:hover{
+    color: rgb(0, 133, 250);
+}
+.prof_nav span:hover{
+    background-color: #6c84d1;
+}
+a:hover{
+    color: rgb(190, 221, 248);
+}
+a:active{
+    color: aliceblue;
+}
+header{
+    font-size: 9em;
+}
+#lower_nav{
+    font-size: 1.2em;
+}
+footer a{
+    font-size: large;
+}

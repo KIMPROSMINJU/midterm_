@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest Book Page</title>
+    <script>
+        alert("S급 페이지의 방명록과는 달리 가독성이 떨어지는 페이지입니다.\n확인을 누르시면 페이지가 로드됩니다.");
+    </script>
+</head>
+<body>
+    <h1><a href="../home_S.html">메인 페이지로 돌아가기</a></h1>
+    <header>GUEST BOOK_B</header>
+    <section>
+        <article id="write">
+            <div>WRITE PAGE</div>
+            <img src="../img/meow.jpg" alt="고양이랍니다." width="200px">
+            <br>
+            <br>
+            <hr>
+            <br>
+            <form id="guestbook-form">
+                <table id="tb">
+                    <tr>
+                        <th><label for="name-input">NAME</label></th>
+                        <td><input type="text" id="name-input" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <th><label for="message-input">MESSAGE</label></th>
+                        <td><textarea id="message-input" name="message" cols="35" rows="10" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><button type="submit" id="submit">SAVE</button></td>
+                    </tr>
+                </table>
+            </form>
+        </article>
+        <article id="store">
+            <div id="rec">RECORDS</div>
+            <hr>
+            <div id="guestbook-list"></div>
+            <script src="guestbook.js"></script>
+        </article>
+    </section>
+</body>
+</html>
+
